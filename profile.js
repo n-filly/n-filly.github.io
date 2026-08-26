@@ -11,11 +11,13 @@ If you do not have a link yet, leave that section as an empty list: []
 */
 
 const studentProfile = {
-  name: "Your Name",
+  name: "Nawal Filly",
 
   tagline: "DREAM-High Scholar | Computational Biology Portfolio",
 
-  bio: "Write a short paragraph about yourself here. You might include your scientific interests, what you hope to learn in DREAM-High, and something you are excited to explore in computational biology.",
+  bio: `Hello, my name is Nawal! Using my strong academic background in Biology, Chemistry, and Mathematics, I'm studying to build a robust foundation in biomedical research. I also hope to gain relevant lab and research experience as I go on my learning journey.
+  
+  I am team-oriented, inquisitive, and committed to continuous development. I strive to use my learned research-compatible skills to support the health and well-being of my community.`,
 
   /*
   Optional photo:
@@ -25,9 +27,9 @@ const studentProfile = {
 
   If you do not want to use a photo, leave this as an empty string.
   */
-  photo: "",
+  photo: "profile.jpg",
 
-  contact: "Contact information available upon request.",
+  contact: "nawalf0956@gmail.com. Additional contact information available on request.",
 
   /*
   RPubs activities:
@@ -38,13 +40,25 @@ const studentProfile = {
   */
   rpubs: [
     {
-      title: "Introduction to R",
-      url: "https://rpubs.com/"
+      title: "Finding Patterns with Heatmaps",
+      url: "https://rpubs.com/n-filly/1447251"
     },
     {
-      title: "Finding Patterns with Heatmaps",
-      url: "https://rpubs.com/"
-    }
+      title: "Exploring TCGA Breast Cancer Clinical Data",
+      url: "https://rpubs.com/n-filly/1448502"
+    },
+    {
+      title: "Heatmaps with TCGA Breast Cancer Gene Expression Data",
+      url: "https://rpubs.com/n-filly/1451194"
+    },
+    {
+      title: "Breast Cancer Cell Lines, Cell Motility, and Gene Expression",
+      url: "https://rpubs.com/n-filly/1454475"
+    },
+    {
+      title: "Exploring TCGA Breast Cancer Clinical Data",
+      url: "https://rpubs.com/n-filly/1454478"
+    },
   ],
 
   /*
@@ -54,8 +68,8 @@ const studentProfile = {
   */
   finalProject: {
     title: "My DREAM-High Final Project",
-    description: "Write one or two sentences describing your final project.",
-    url: ""
+    description: "This study compares SW480 and SW620 colon cancer cell lines to identify the genetic drivers behind metastatic migrations speeds. By tracking expressions like KRT23, it highlights how data-filtering choices can hide key systems biology interactions.",
+    url: "https://canva.link/jxdwsac9a8mu32f"
   },
 
   /*
@@ -65,7 +79,7 @@ const studentProfile = {
   github: [
     {
       title: "My GitHub Profile",
-      url: "https://github.com/"
+      url: "https://github.com/n-filly"
     }
   ]
 };
